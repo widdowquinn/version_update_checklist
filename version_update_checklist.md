@@ -55,6 +55,7 @@ python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ### Check `pip install` from `TestPyPI`
 
 - `pip install` with the test server specified, and the version number specified
+    - use a test environment, e.g. `conda activate pypi_test`
 
 ```bash
 python -m pip install --index-url https://test.pypi.org/simple/ --no-deps <package>==<version>
