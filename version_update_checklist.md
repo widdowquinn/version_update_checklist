@@ -1,5 +1,6 @@
 # Updating package versions
 
+This Markdown document provides a checklist of operations to follow when preparing and pushing a new release to `GitHub`, `PyPI` and `bioconda`.
 
 ## Checklist
 
